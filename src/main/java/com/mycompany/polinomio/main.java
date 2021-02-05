@@ -22,9 +22,14 @@ public class main {
         poli2.agregar(3, 2);
         poli2.agregar(3, 3);
         
-        poli1.multiplicar(poli2);
         
-        poli1.imprimir_2();
+        poli1.sumar(poli2);
+        
+        //poli1.multiplicar(poli2);
+        
+        poli1.imprimir();
+        
+        //poli1.imprimir_2();
         
         
     }
