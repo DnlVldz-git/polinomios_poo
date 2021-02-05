@@ -14,13 +14,13 @@ public class Monomio {
     private int coeficiente;
     private int exponente;
     private Monomio siguiente;
-    private Monomio previo;
+    
 
     public Monomio(int c, int e){
         this.coeficiente = c;
         this.exponente = e;
         this.siguiente = null;
-        this.previo = null;
+        
     }
     
     public Monomio(){
@@ -55,14 +55,6 @@ public class Monomio {
     
     public void setSiguiente(Monomio siguiente){
         this.siguiente = siguiente;
-    }
-
-    public Monomio getPrevio() {
-        return previo;
-    }
-
-    public void setPrevio(Monomio previo) {
-        this.previo = previo;
     }
     
     

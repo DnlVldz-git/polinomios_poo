@@ -43,8 +43,6 @@ public class Polinomio {
             }
             aux = aux.getSiguiente();
         }
-        
-        
     }
     
     public void agregar(Polinomio p){
